@@ -1,27 +1,15 @@
 # MinesweeperApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+- Este un joc simplu in care trebuie sa fie dezamorsate toate bombele
+    -
 
-## Development server
+- In partea de sus se pot seta <strong>Bomb probability</strong>, <strong>Max Probability</strong> si <strong>Difficulty</strong>. Acestea se pot actualiza cu ajutorul butonului <strong> "Generate Board"</strong>
+    -
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Pe tabla de joc se va juca doar cu ajutorul click-ului astfel:
+    -
+    - Cu click stanga se dezvaluie ce este in spatele celulei. Daca este o bomba jocul este pierdut. Daca este o celula fara bomba atunci se va afisa un numar ce reprezinta numarul de bombe adiacente celulei respective
+    - Cu click dreapta se va pune un steag (flag) care va reprezenta indicatia ca acolo se afla o bomba.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-   Jocul este castigat cand toate celulele sunt fie deschise cu click stanga fie flaguite cu click dreapta insemnand ca am dezamorsat toate bombele
+    -

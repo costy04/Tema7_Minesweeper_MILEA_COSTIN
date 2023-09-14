@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.minesweeper-control {
+  margin-bottom: 100px;
+}
+
+.minesweeper-board {
+  display: inline-block;
+  border: 2px solid #000;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
